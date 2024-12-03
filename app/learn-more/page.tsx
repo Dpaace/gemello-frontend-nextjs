@@ -1,9 +1,8 @@
-import Image from 'next/image'; // Use Next.js Image optimization
+import Image from 'next/image';
 
 export default function LearnMorePage() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center py-12 px-4">
-      
       {/* First Section - Digital Twin Technology */}
       <div className="flex flex-col md:flex-row items-center w-full max-w-6xl">
         {/* Text Section */}
@@ -19,7 +18,7 @@ export default function LearnMorePage() {
         {/* Image Section */}
         <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center">
           <Image
-            src="/images/digital-twin.png" 
+            src="/images/digital-twin.png"
             alt="3D Digital Twin Technology"
             width={300}
             height={400}
@@ -30,9 +29,7 @@ export default function LearnMorePage() {
 
       {/* How to create a digital twin Section */}
       <div className="mt-16 text-center w-full max-w-3xl">
-        <h2 className="text-5xl font-bold text-black">
-          How to create a digital twin:
-        </h2>
+        <h2 className="text-5xl font-bold text-black">How to create a digital twin:</h2>
         <p className="mt-4 text-lg text-gray-700">
           From cameras to capabilities, <br />
           discover everything you need to begin capturing, <br />
@@ -42,18 +39,15 @@ export default function LearnMorePage() {
 
       {/* Capture Your Space Section */}
       <div className="mt-16 flex flex-col md:flex-row items-center w-full max-w-6xl">
-        {/* Left - Image */}
         <div className="md:w-1/2 flex justify-center">
           <Image
-            src="/images/capture-your-space.webp" 
+            src="/images/capture-your-space.webp"
             alt="Capture Your Space"
             width={600}
             height={400}
             objectFit="contain"
           />
         </div>
-
-        {/* Right - Text */}
         <div className="md:w-1/2 flex flex-col justify-center md:pl-8 mt-8 md:mt-0">
           <h2 className="text-3xl font-bold text-black">Capture Your Space</h2>
           <p className="mt-4 text-lg text-gray-700">
@@ -64,18 +58,15 @@ export default function LearnMorePage() {
 
       {/* Edit and Document Section */}
       <div className="mt-16 flex flex-col md:flex-row items-center w-full max-w-6xl">
-        {/* Left - Text */}
         <div className="md:w-1/2 flex flex-col justify-center md:pr-8 mt-8 md:mt-0">
           <h2 className="text-3xl font-bold text-black">Edit and Document</h2>
           <p className="mt-4 text-lg text-gray-700">
             Customize your digital twin to meet specific needs, from creating labels to adjusting viewpoints. Create a document that's useful and shareable.
           </p>
         </div>
-
-        {/* Right - Image */}
         <div className="md:w-1/2 flex justify-center">
           <Image
-            src="/images/edit-document.jpg" 
+            src="/images/edit-document.jpg"
             alt="Edit and Document"
             width={500}
             height={300}
@@ -86,18 +77,15 @@ export default function LearnMorePage() {
 
       {/* Share and Collaborate Section */}
       <div className="mt-16 flex flex-col md:flex-row items-center w-full max-w-6xl">
-        {/* Left - Image */}
         <div className="md:w-1/2 flex justify-center">
           <Image
-            src="/images/digital-twin-room.jpg" 
+            src="/images/digital-twin-room.jpg"
             alt="Share and Collaborate"
             width={500}
             height={300}
             objectFit="contain"
           />
         </div>
-
-        {/* Right - Text */}
         <div className="md:w-1/2 flex flex-col justify-center md:pl-8 mt-8 md:mt-0">
           <h2 className="text-3xl font-bold text-black">Share and Collaborate</h2>
           <p className="mt-4 text-lg text-gray-700">
@@ -117,115 +105,60 @@ export default function LearnMorePage() {
 
         {/* Grid Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          {/* First Card - Real Estate */}
-          <div className="text-center">
-            <Image
-              src="/images/real-estate.png" 
-              alt="Real Estate"
-              width={100}
-              height={100}
-              objectFit="contain"
-            />
-            <h3 className="text-xl font-bold text-black mt-4">Real Estate</h3>
-            <p className="mt-2 text-gray-700">
-              Matterport virtual tours are powerful marketing tools that help agents win listings and sell more properties faster and at a higher price.
-            </p>
-            <a href="#" className="text-blue-500 mt-4 block">
-              Learn More →
-            </a>
-          </div>
-
-          {/* Second Card - Travel & Hospitality */}
-          <div className="text-center">
-            <Image
-              src="/images/travel-hospitality.png" 
-              alt="Travel & Hospitality"
-              width={100}
-              height={100}
-              objectFit="contain"
-            />
-            <h3 className="text-xl font-bold text-black mt-4">Travel & Hospitality</h3>
-            <p className="mt-2 text-gray-700">
-              A valuable addition to promotional materials, 3D tours boost bookings, drive higher occupancy rates, and increase online engagement.
-            </p>
-            <a href="#" className="text-blue-500 mt-4 block">
-              Learn More →
-            </a>
-          </div>
-
-          {/* Third Card - Architecture & Construction */}
-          <div className="text-center">
-            <Image
-              src="/images/architecture.png" 
-              alt="Architecture & Construction"
-              width={100}
-              height={100}
-              objectFit="contain"
-            />
-            <h3 className="text-xl font-bold text-black mt-4">
-              Architecture, Engineering, and Construction
-            </h3>
-            <p className="mt-2 text-gray-700">
-              Digital twins streamline documentation and reduce costs with virtual collaboration in 3D scans of projects.
-            </p>
-            <a href="#" className="text-blue-500 mt-4 block">
-              Learn More →
-            </a>
-          </div>
-
-          {/* Fourth Card - Facilities Management */}
-          <div className="text-center">
-            <Image
-              src="/images/facilities-management.png" 
-              alt="Facilities Management"
-              width={100}
-              height={100}
-              objectFit="contain"
-            />
-            <h3 className="text-xl font-bold text-black mt-4">Facilities Management</h3>
-            <p className="mt-2 text-gray-700">
-              Digital twins are an efficient, effective way to survey existing buildings, manage maintenance and develop remodeling plans.
-            </p>
-            <a href="#" className="text-blue-500 mt-4 block">
-              Learn More →
-            </a>
-          </div>
-
-          {/* Fifth Card - Insurance & Restoration */}
-          <div className="text-center">
-            <Image
-              src="/images/insurance-restoration.png" 
-              alt="Insurance & Restoration"
-              width={100}
-              height={100}
-              objectFit="contain"
-            />
-            <h3 className="text-xl font-bold text-black mt-4">Insurance & Restoration</h3>
-            <p className="mt-2 text-gray-700">
-              Digital twins streamline the loss documentation process by enabling remote viewing and adjusting disputes in property claims.
-            </p>
-            <a href="#" className="text-blue-500 mt-4 block">
-              Learn More →
-            </a>
-          </div>
-
-          {/* Sixth Card - Public Spaces */}
-          <div className="text-center">
-            <Image
-              src="/images/public-spaces.png" 
-              alt="Public Spaces"
-              width={100}
-              height={100}
-              objectFit="contain"
-            />
-            <h3 className="text-xl font-bold text-black mt-4">Public Spaces</h3>
-            <p className="mt-2 text-gray-700">
-              Digital twins allow 24/7 visitor access to museums and galleries and help event planners make informed design decisions.
-            </p>
-            <a href="#" className="text-blue-500 mt-4 block">
-              Learn More →
-            </a>
-          </div>
+          {[
+            {
+              image: "/images/real-estate.png",
+              title: "Real Estate",
+              description:
+                "Matterport virtual tours are powerful marketing tools that help agents win listings and sell more properties faster and at a higher price.",
+            },
+            {
+              image: "/images/travel-hospitality.png",
+              title: "Travel & Hospitality",
+              description:
+                "A valuable addition to promotional materials, 3D tours boost bookings, drive higher occupancy rates, and increase online engagement.",
+            },
+            {
+              image: "/images/architecture.png",
+              title: "Architecture, Engineering, and Construction",
+              description:
+                "Digital twins streamline documentation and reduce costs with virtual collaboration in 3D scans of projects.",
+            },
+            {
+              image: "/images/facilities-management.png",
+              title: "Facilities Management",
+              description:
+                "Digital twins are an efficient, effective way to survey existing buildings, manage maintenance and develop remodeling plans.",
+            },
+            {
+              image: "/images/insurance-restoration.png",
+              title: "Insurance & Restoration",
+              description:
+                "Digital twins streamline the loss documentation process by enabling remote viewing and adjusting disputes in property claims.",
+            },
+            {
+              image: "/images/public-spaces.png",
+              title: "Public Spaces",
+              description:
+                "Digital twins allow 24/7 visitor access to museums and galleries and help event planners make informed design decisions.",
+            },
+          ].map((card, index) => (
+            <div key={index} className="text-center flex flex-col items-center">
+              <Image
+                src={card.image}
+                alt={card.title}
+                width={100}
+                height={100}
+                objectFit="contain"
+                className="mx-auto"
+              />
+              <h3 className="text-xl font-bold text-black mt-4">{card.title}</h3>
+              <p className="mt-2 text-gray-700">{card.description}</p>
+              <a href="#" className="text-blue-500 mt-4 block">
+                Learn More →
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -54,7 +54,7 @@ export default function Home() {
 
             {/* Text Content */}
             <div className="relative z-10 text-center text-white">
-                <h1 className="text-5xl font-bold">Digital Twin</h1>
+                <h1 className="text-7xl font-bold">Digital Twin</h1>
                 <p className="text-3xl mt-4">Revolutionize your operation.</p>
 
                 {/* Learn More Button */}

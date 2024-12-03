@@ -62,7 +62,7 @@
 //                 }
 //             };
 
-//             const req = await fetch('http://localhost:1337/api/users/me?populate[gemellos][populate]=assetbundle', reqOptions);
+//             const req = await fetch('http://localhost:1337?populate[gemellos][populate]=assetbundle', reqOptions);
 //             const res: UserData = await req.json();
 
 //             if ((res as any).error) {
